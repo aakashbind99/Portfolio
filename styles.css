@@ -1,0 +1,158 @@
+/* Reset some default styles */
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+/* Basic styling */
+body {
+
+  line-height: 1.6;
+  background-color: rgb(5, 0, 78);
+  color: white;
+
+}
+
+/* navbar*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background-color: rgb(9, 0, 137);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0% 23px;
+}
+
+/*navbar*/
+.left {
+  font-size: 2rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+main hr{
+  border: 0;
+  background-color: rgb(101, 101, 144);
+  height: 1.2px;
+  width: 40px 80px;
+
+}
+
+
+.firstsection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1px 0;
+}
+
+.firstsection>div {
+  width: 30%;
+}
+
+.leftsection {
+  margin: 70px 0;
+  font-size: 3rem;
+
+}
+.leftsection .btn{
+  padding: 12px;
+  background: rgb(26, 10, 154);
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-size: 20px;
+  
+}
+.rightsection {
+  width: 80%;
+  margin: 0%;
+
+}
+
+.rightsection img {
+  border-radius: 100%;
+  width: 250px;
+
+
+}
+
+.purple {
+  color: blueviolet;
+}
+
+#skills h1{
+
+  margin: 40px 150px;
+  
+  font-size: 1.9rem;
+}
+ #skills ul {
+  
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#skills ul li {
+  
+  
+  font-size: 2rem;
+  
+}
+
+
+#projects h1{
+  margin: 40px 150px;
+  font-size: 1.9rem;
+}
+#projects ul{
+  margin: 120px 500px;
+  padding-top: 0px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  
+}
+/* Contact Section */
+#contact {
+  padding: 40px 0;
+  background-color:rgb(5, 0, 78);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+#contact a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  background-color: #000000;
+  color: #e6e6e6;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1em;
+}
